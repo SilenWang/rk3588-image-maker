@@ -4,10 +4,10 @@
  <br>
  Sample: Test image as `chromiumos_test_image.bin`
 
-2. Map the image partitions to Image.
+2. Map the image partitions to Image. Default board is fydetab_duo.
 
 ```
-  ./map_chromiumos_image.sh <path to chromiumos_test_image.bin>
+  ./map_chromiumos_image.sh <path to chromiumos_test_image.bin> [--board <board name>]
 ```
 
 3. Create update image
